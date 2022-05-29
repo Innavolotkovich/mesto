@@ -86,8 +86,50 @@ column-gap: 18px;
 
 
 .profile__add-button {
-    width: 150px;
+width: 150px;
 height: 50px;
 margin: 35px 0 35px 0;
+
+}
+
+.elements {
+max-width: 880px;
+padding: 51px 200px 67px 200px;
+margin: 0;
+}
+
+.elements__cards {
+/* display: flex;
+justify-content: space-around;
+flex-wrap: wrap; */
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(2, 2fr);
+row-gap: 20px;
+column-gap: 17px;
+
+border-radius: 10px;
+list-style: none;
+margin: 0;
+padding: 0;
+
+}
+
+.element__card {
+   background: #FFFFFF; 
+}
+.element__mask-group {
+max-width: 282px;
+border-radius: 0px;
+}
+.element__title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    
+}
+.element__vector {
 
 }
