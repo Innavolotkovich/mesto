@@ -14,8 +14,8 @@
 .header {
     max-width: 880px;
     padding: 45px 200px 40px;
-    
-    
+
+
 }
 
 .header__logo {
@@ -35,9 +35,14 @@
     max-width: 880px;
     margin: 0;
     display: flex;
+    justify-content: space-between;
     padding: 0 200px 0;
 }
 
+.profile__kusto {
+    display: flex;
+    justify-content: space-between;
+}
 
 .profile__avatar {
     width: 120px;
@@ -53,8 +58,8 @@
     display: grid;
     grid-template-columns: 294px 1fr;
     grid-template-rows: 1fr 1fr;
-row-gap: 16px;
-column-gap: 18px;
+    row-gap: 16px;
+    column-gap: 18px;
 }
 
 .profile__title {
@@ -86,50 +91,44 @@ column-gap: 18px;
 
 
 .profile__add-button {
-width: 150px;
-height: 50px;
-margin: 35px 0 35px 0;
+    width: 150px;
+    height: 50px;
+    margin: 35px 0 35px 0;
 
 }
 
 .elements {
-max-width: 880px;
-padding: 51px 200px 67px 200px;
-margin: 0;
+    max-width: 880px;
+    padding: 51px 200px 67px 200px;
+    margin: 0;
 }
 
 .elements__cards {
-/* display: flex;
-justify-content: space-around;
-flex-wrap: wrap; */
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-grid-template-rows: repeat(2, 2fr);
-row-gap: 20px;
-column-gap: 17px;
-
-
-list-style: none;
-margin: 0;
-padding: 0;
-
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 2fr);
+    row-gap: 20px;
+    column-gap: 17px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .element__card {
-   background: #FFFFFF;
-   border-radius: 10px; 
-}
-.element__mask-group {
-max-width: 282px;
-border-radius: 0px;
-border-top-left-radius: 10px;
-border-top-right-radius: 10px;
+    background: #FFFFFF;
+    border-radius: 10px;
 }
 
-.element__like{
-display: flex;
-justify-content: space-between;
-margin: 25px 15px 31px 21px;
+.element__mask-group {
+    max-width: 282px;
+    border-radius: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.element__like {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 15px 31px 21px;
 }
 
 .element__title {
@@ -141,6 +140,7 @@ margin: 25px 15px 31px 21px;
     margin: 0;
     /* text-overflow: ellipsis; */
 }
+
 .element__vector {
     width: 22px;
     height: 19px;
@@ -149,14 +149,14 @@ margin: 25px 15px 31px 21px;
 .footer {
     max-width: 318px;
     padding: 0 0 60px 200px;
-    
+
 }
 
 .footer__copyright {
-margin: 0;
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 22px;
-color: #545454;
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #545454;
 }
