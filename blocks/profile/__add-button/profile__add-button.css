@@ -2,6 +2,19 @@
     width: 150px;
     height: 50px;
     margin: 35px 0 35px 0;
+    border: 2px solid #fff;
+    border-radius: 2px;
+    background-image: url(../../../images/addbutton.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0;
+    transition: opacity .3s;
+  }
+
+  .profile__btn-add:hover {
+    opacity: 0.6;
 
 }
 
