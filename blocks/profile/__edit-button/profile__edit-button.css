@@ -1,23 +1,17 @@
 .profile__edit-button {
     width: 24px;
     height: 24px;
-    /* padding: 15px 0 0 0; */
     padding: 0;
     border: 1px solid #fff;
     outline: none;
-    transition: opacity .3s;  /*проверить*/
+    transition: opacity .3s;  
     background-image: url(../../../images/editbutton.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-color: transparent;
     cursor: pointer;
     align-self: flex-end;
-    /* border: 1px solid #fff;
-  background-image: url(../../../images/editb.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 10px 10px;
-  transition: all 0.5s ease; */
+    transition: all 0.5s ease;
 }
 
 
