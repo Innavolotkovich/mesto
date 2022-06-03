@@ -1,4 +1,4 @@
-.popup__about-me {
+.popup__form_about-me {
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
@@ -8,4 +8,5 @@
     line-height: 17px;
     margin: 0;
     padding: 0;
-}
+    padding-bottom: 13px;
+  }

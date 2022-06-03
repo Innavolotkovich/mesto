@@ -4,13 +4,9 @@
     margin-bottom: 41px;
     background-image: url(../../../images/logo.svg);
     background-repeat: no-repeat;
-    cursor: pointer;
-    transition: opacity .3s;
+    background-size: contain;
 }
 
-.header__logo:hover {
-    background-image: url(../../../images/logoblack.svg);
-}
 
 @media screen and (max-width: 1023px) {
     .header__logo  {

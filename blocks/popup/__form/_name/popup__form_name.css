@@ -1,4 +1,4 @@
-.popup__name {
+.popup__form_name {
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
@@ -8,5 +8,5 @@
     line-height: 17px;
     margin: 0;
     padding: 0;
-    
-   }
+    padding-bottom: 13px;
+  }
