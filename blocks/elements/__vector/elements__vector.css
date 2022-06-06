@@ -1,4 +1,4 @@
-.element__vector {
+.elements__vector {
     width: 22px;
     height: 19px;
     background-image: url(../../../images/like.svg);
@@ -7,12 +7,12 @@
     cursor: pointer;
 }
 
-.element__vector:hover {
+.elements__vector:hover {
     opacity: 0.6;
     
 }
 
-.element__vector:active {
+.elements__vector:active {
     background-image: url(../../../images/likeblack.svg);
     background-repeat: no-repeat;
    
