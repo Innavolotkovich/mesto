@@ -1,8 +1,22 @@
 .elements__like {
-    display: flex;
-    justify-content: space-between;
-    margin: 25px 15px 22px 21px;
+    width: 28px;
+    height: 19px;
+    background-image: url(../../../images/like.svg);
+    background-repeat: no-repeat;
+    transition: opacity .3s;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+   
+}
+
+.elements__like:hover {
+    opacity: 0.6;
     
 }
 
-
+.elements__like:active {
+    background-image: url(../../../images/likeblack.svg);
+    
+   
+}

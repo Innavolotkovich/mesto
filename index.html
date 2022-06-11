@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Место</title>
     <link rel="stylesheet" href="pages/index.css" />
   </head>
 
@@ -16,7 +16,7 @@
       </header>
       <main class="content">
         <section class="profile">
-          <div class="profile__kusto">
+          <div class="profile__description">
             <img
               src="images/avatar.png"
               alt="Жак-Ив Кусто"
@@ -24,7 +24,7 @@
             />
             <div class="profile__info">
               <h1 class="profile__title">Жак-Ив Кусто</h1>
-              <button
+              <button type="button"
                 class="profile__edit-button"
                 title="Кнопка редактирования"
               ></button>
@@ -32,7 +32,7 @@
               <p class="profile__subtitle">Исследователь океана</p>
             </div>
           </div>
-          <button class="profile__add-button" title="Кнопка добавить"></button>
+          <button type="button" class="profile__add-button" title="Кнопка добавить"></button>
         </section>
 
         <section class="elements">
@@ -43,9 +43,9 @@
                 alt="Карачаевск"
                 class="elements__mask-group"
               />
-              <div class="elements__like">
+              <div class="elements__group">
                 <h2 class="elements__title">Карачаевск</h2>
-                <div class="elements__vector"></div>
+                <button class="elements__like" type="button"></button>
               </div>
             </li>
             <li class="elements__card">
@@ -54,9 +54,9 @@
                 alt="Гора Эльбрус"
                 class="elements__mask-group"
               />
-              <div class="elements__like">
+              <div class="elements__group">
                 <h2 class="elements__title">Гора Эльбрус</h2>
-                <div class="elements__vector"></div>
+                <button class="elements__like" type="button"></button>
               </div>
             </li>
             <li class="elements__card">
@@ -65,9 +65,9 @@
                 alt="Домбай"
                 class="elements__mask-group"
               />
-              <div class="elements__like">
+              <div class="elements__group">
                 <h2 class="elements__title">Домбай</h2>
-                <div class="elements__vector"></div>
+                <button class="elements__like" type="button"></button>
               </div>
             </li>
             <li class="elements__card">
@@ -76,9 +76,9 @@
                 alt="Гора Эльбрус"
                 class="elements__mask-group"
               />
-              <div class="elements__like">
+              <div class="elements__group">
                 <h2 class="elements__title">Гора Эльбрус</h2>
-                <div class="elements__vector"></div>
+                <button class="elements__like" type="button"></button>
               </div>
             </li>
             <li class="elements__card">
@@ -87,9 +87,9 @@
                 alt="Домбай"
                 class="elements__mask-group"
               />
-              <div class="elements__like">
+              <div class="elements__group">
                 <h2 class="elements__title">Домбай</h2>
-                <div class="elements__vector"></div>
+                <button class="elements__like" type="button"></button>
               </div>
             </li>
             <li class="elements__card">
@@ -98,9 +98,9 @@
                 alt="Карачаево-Черкесия"
                 class="elements__mask-group"
               />
-              <div class="elements__like">
+              <div class="elements__group">
                 <h2 class="elements__title">Карачаево-Ч...</h2>
-                <div class="elements__vector"></div>
+                <button class="elements__like" type="button"></button>
               </div>
             </li>
           </ul>
@@ -116,21 +116,23 @@
         <form class="popup__form" name="popup-form">
           <input
             type="text"
-            class="popup__form popup__form_name"
+            class="popup__item popup__item_type_name"
+            name="name"
             maxlength="40"
             minlength="2"
             required
           />
           <input
             type="text"
-            class="popup__form popup__form_job"
+            class="popup__item popup__item_type_job"
+            name="job"
             maxlength="200"
             minlength="2"
             required
           />
-          <button class="popup__save-button" type="submit">Сохранить</button>
+          <button type="submit" class="popup__save-button" >Сохранить</button>
         </form>
-        <button class="popup__close-button" type="button"></button>
+        <button type="button" class="popup__close-button" ></button>
       </div>
     </div>
     <script src="./script/index.js"></script>
